@@ -901,14 +901,14 @@
         <mxCell id="DQBvjUd7PT3adbjEAeh2-47" value="leads create teams" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-690" y="1770" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DQBvjUd7PT3adbjEAeh2-48" value="leads create team and invite members" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-555" y="1770" width="235" height="20" as="geometry" />
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-48" value="leads create team" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-555" y="1770" width="135" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DQBvjUd7PT3adbjEAeh2-49" value="leads edit/accept/start" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-690" y="2130" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DQBvjUd7PT3adbjEAeh2-50" value="leads accept join request, edit team details, start activity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-555" y="2110" width="235" height="60" as="geometry" />
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-50" value="leads accept join request," style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-555" y="2130" width="175" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DQBvjUd7PT3adbjEAeh2-51" value="members start challenge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-690" y="2290" width="140" height="20" as="geometry" />
@@ -925,7 +925,7 @@
         <mxCell id="DQBvjUd7PT3adbjEAeh2-55" value="members request to join" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-690" y="1940" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DQBvjUd7PT3adbjEAeh2-56" value="leads create team and invite members" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-56" value="members request to join a team" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-530" y="1940" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DQBvjUd7PT3adbjEAeh2-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DQBvjUd7PT3adbjEAeh2-41" target="DQBvjUd7PT3adbjEAeh2-61">
@@ -1064,7 +1064,12 @@
           <mxGeometry x="850" y="1780" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DQBvjUd7PT3adbjEAeh2-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.316;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DQBvjUd7PT3adbjEAeh2-48" target="DQBvjUd7PT3adbjEAeh2-42">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-250" y="1780" />
+              <mxPoint x="-250" y="1880" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="DQBvjUd7PT3adbjEAeh2-99" value="team added" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-140" y="1870" width="100" height="20" as="geometry" />
@@ -1074,6 +1079,42 @@
         </mxCell>
         <mxCell id="DQBvjUd7PT3adbjEAeh2-102" value="team activity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="80" y="1870" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-103" value="leads invite members" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-555" y="1800" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.358;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DQBvjUd7PT3adbjEAeh2-103" target="DQBvjUd7PT3adbjEAeh2-94">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-290" y="1810" />
+              <mxPoint x="-290" y="1910" />
+              <mxPoint x="685" y="1910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-105" value="send email to users" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1900" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.368;entryY=0.307;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DQBvjUd7PT3adbjEAeh2-103" target="DQBvjUd7PT3adbjEAeh2-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-107" value="join request" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1920" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.376;entryY=0.293;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DQBvjUd7PT3adbjEAeh2-56" target="DQBvjUd7PT3adbjEAeh2-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.582;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DQBvjUd7PT3adbjEAeh2-50" target="DQBvjUd7PT3adbjEAeh2-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-111" value="&amp;nbsp;start activity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-555" y="2160" width="165" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-112" value="join request" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="2125" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-113" value="team members" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="2125" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
