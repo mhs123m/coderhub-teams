@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1843" dy="1549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2863" dy="2034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -963,10 +963,10 @@
         <mxCell id="DQBvjUd7PT3adbjEAeh2-73" value="add activity in core" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="340" y="1680" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DQBvjUd7PT3adbjEAeh2-74" value="create team activity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-74" value="publish activity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-690" y="1630" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DQBvjUd7PT3adbjEAeh2-75" value="admin adds users with their roles" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-75" value="admin publishes activity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-555" y="1630" width="195" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DQBvjUd7PT3adbjEAeh2-76" value="acitivity_challenge_teams" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
@@ -1023,6 +1023,57 @@
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-89" value="x" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-90" value="Businesse:&lt;br&gt;this step is not needed...&lt;br&gt;a lead should automatically in a team" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="230" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.205;entryY=0.253;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DQBvjUd7PT3adbjEAeh2-75" target="DQBvjUd7PT3adbjEAeh2-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-190" y="1640" />
+              <mxPoint x="-190" y="1771" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-92" value="status published" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1760" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-93" value="assigned leads table (activity leads)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5" y="1760" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-94" value="Celery" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.39019607843139664;arrowSize=0.05828331332532956;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2020" width="980" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DQBvjUd7PT3adbjEAeh2-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="1791" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-210" y="1640" />
+              <mxPoint x="-210" y="1790" />
+              <mxPoint x="657" y="1790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-96" value="send email to users" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1780" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-97" value="create user activity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1780" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.316;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DQBvjUd7PT3adbjEAeh2-48" target="DQBvjUd7PT3adbjEAeh2-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-99" value="team added" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="1870" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-100" value="team member" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="1870" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DQBvjUd7PT3adbjEAeh2-102" value="team activity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1870" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
